@@ -1,2 +1,2 @@
 # street-lights
-Custom Video Player // HTML 5 Video API
+Vanilla JS practice: Custom Video Player // HTML 5 Video API
