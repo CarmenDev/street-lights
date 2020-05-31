@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #666;
+    background: linear-gradient(#340752, #666, #333, #000);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,10 +17,16 @@ body {
 
 h1 {
     color: #fff;
+    cursor: pointer;
+}
+
+h1:hover {
+    transform: scale(1.4);
 }
 
 p {
     color: #fff;
+    cursor: pointer;
 }
 
 .screen {
@@ -51,7 +57,7 @@ p {
 }
 
 .controls .fa-play {
-    color: #28a745;
+    color: #bea309;
 }
 
 .controls .fa-stop {
